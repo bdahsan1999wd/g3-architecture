@@ -14,7 +14,7 @@ header{
     font-size: 45px;
 }
 .subtitle{
-    color: #727272;
+    color: #595454;
     font-size: 16px;
 }
 nav{
@@ -100,7 +100,7 @@ nav ul{
     max-height: 342px;
     max-width: 342px;
 }
-.features-text .quick-features{
+.quick-features .quick-features-text{
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -110,3 +110,69 @@ nav ul{
     margin-top: 10px;
     margin-bottom: 25px;
 }
+
+/* features love & enjoy */
+
+
+.features{
+    gap: 64px;
+}
+.features .title{
+    border-left: #FF900E 5px solid;
+    padding-left: 20px;
+}
+.feature .feature-item h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.features .feature-item p{
+    color: #595454;
+}
+.features .feature-item{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.quick-features, .features{
+    display: flex;
+    margin: 85px 240px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.features .feature-image{
+    width: 50%;
+    position: relative;
+}
+.features .feature-image{
+    width: 100%;
+}
+.features .feature-image button{
+    padding: 45px 42px;
+    border-radius: 6px;
+    margin-top: -60%;
+    margin-left: -50px;
+}
+.features .features-image button span{
+    font-size: 2vw;
+}
+.button-big{
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+    width: 1440px;
+    border: 5px;
+    margin: auto;
+}
+footer p{
+    font-size: 20px;
+    background: #FF900E1A;
+    color: #424242;
+    padding: 40px 410px;
+    margin: 130px 0;
+}
+
+/*  */

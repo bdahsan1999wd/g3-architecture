@@ -10,6 +10,9 @@ header{
     background: #FF900E1A;
     padding: 63px 240px ;
 }
+.title{
+    font-size: 45px;
+}
 .subtitle{
     color: #727272;
     font-size: 16px;
@@ -78,4 +81,32 @@ nav ul{
     display: block;
 }
 
-/*  */
+/* quick list features */
+
+.quick-features{
+    display: flex;
+    margin: 80px 240px;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.quick-features .quick-features-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    flex: 1;
+}
+.quick-features .quick-features-image img{
+    max-height: 342px;
+    max-width: 342px;
+}
+.features-text .quick-features{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 1;
+}
+.quick-features .subtitle{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
